@@ -127,3 +127,8 @@ else{
 
 }
 hourlyTrack()
+
+window.addEventListener('Local storage', () => {
+  
+    console.log(JSON.parse(window.localStorage.getItem('#hour9')));
+  });

@@ -24,102 +24,119 @@
     <title>Work Day Scheduler</title>
   </head>
 
-  <body>
+ 
     
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <div class="time-block">   
-        <textarea class="description">     </textarea> <button> </button>
+    <div class="container-fluid">
+<div id="hour9" class="row time-block">
+  <div data-hours="9" class="col-md-1 hour">
+    
+        9 
+        AM
       </div>
-      <div class="col">
-
+   <textarea class="col-md-10 description"></textarea>
+   <button class="btn save Btn col-md-1">
+     <i class="fas fa-cloud"></i>
+   </button>
+</div>
+<div id="hour10" class="row time-block">
+  <div data-hours="10" class="col-md-1 hour">
+    
+        10 
+        AM
       </div>
-      <div class="hour" id="9am">
-        9am 
+   <textarea class="col-md-10 description"></textarea>
+   <button class="btn save Btn col-md-1">
+     <i class="fas fa-cloud"></i>
+   </button>
+</div>
+<div id="hour11" class="row time-block">
+  <div data-hours="11" class="col-md-1 hour">
+    
+         11 
+         AM 
       </div>
-      <div class = "row">
+   <textarea class="col-md-10 description"></textarea>
+   <button class="btn save Btn col-md-1">
+     <i class="fas fa-cloud"></i>
+   </button>
+</div>
+<div id="hour12" class="row time-block">
+  <div data-hours="12" class="col-md-1 hour">
+    
+         12 
+         PM 
       </div>
-      <div class="col"></div>
-        <div class=  "time-block">
-          <textarea class="description">   </textarea> <button> </button>
+   <textarea class="col-md-10 description"></textarea>
+   <button class="btn save Btn col-md-1">
+     <i class="fas fa-cloud"></i>
+   </button>
+</div> 
+  <div id="hour1" class="row time-block">
+    <div data-hours="1" class="col-md-1 hour">
+      
+          1 
+          PM
         </div>
-        <div class="hour" id="10am">
-          10am 
+     <textarea class="col-md-10 description"></textarea>
+     <button class="btn save Btn col-md-1">
+       <i class="fas fa-cloud"></i>
+     </button>
+  </div>
+    <div id="hour2" class="row time-block">
+      <div data-hours="2" class="col-md-1 hour">
+        
+          2 
+          PM
+          </div>
+       <textarea class="col-md-10 description"></textarea>
+       <button class="btn save Btn col-md-1">
+         <i class="fas fa-cloud"></i>
+       </button>
+    </div> 
+      <div id="hour3" class="row time-block">
+        <div data-hours="9" class="col-md-1 hour">
+          
+          3 
+          PM
+            </div>
+         <textarea class="col-md-10 description"></textarea>
+         <button class="btn save Btn col-md-1">
+           <i class="fas fa-cloud"></i>
+         </button>
+      </div>
+    
+        <div id="hour4" class="row time-block">
+          <div data-hours="4" class="col-md-1 hour">
+            
+          4 
+          PM
+              </div>
+           <textarea class="col-md-10 description"></textarea>
+           <button class="btn save Btn col-md-1">
+             <i class="fas fa-cloud"></i>
+           </button>
         </div>
-        <div class="col"></div>
-        <div class= "row">
-        </div>
-          <div class="time-block">
-            <textarea class="description">   </textarea> <button> </button>
-          </div>
-          <div class="hour" id="11am">
-            11am 
-          </div>
-          <div class="col"></div>
-          <div class = "row">
-          </div>
-            <div class="time-block">
-              <textarea class="description">   </textarea> <button> </button>
-            </div>
-            <div class="col"></div>
-            <div class="hour" id="12am">
-              12am 
-            </div>
-            <div class="col"></div>
-            <div class = "row">
-            </div>
-              <div class="time-block">
-                <textarea class="description">   </textarea> <button> </button>
-              </div>
-              <div class="col"></div>
-              <div class="hour" id="1pm">
-                1pm
-              </div>
-              <div class="col"></div>
-              <div class= "row">
-              </div>
-                <div class="time-block">
-                  <textarea class="description">   </textarea> <button> </button>
+      
+          <div id="hour5" class="row time-block">
+            <div data-hours="5" class="col-md-1 hour">
+              
+         5
+         PM
                 </div>
-                <div class="hour" id="2pm">
-                  2pm
-                </div>
-                <div class="col"></div>
-                <div class= "row">
-                </div>
-                  <div class="time-block">
-                    <textarea class="description">   </textarea> <button> </button>
-                  </div>
-                  <div class="hour" id="3pm">
-                    3pm
-                  </div>
-                  <div class="col"></div>
-                  <div class= "row">
-                  </div>
-                    <div class="time-block">
-                      <textarea class="description">   </textarea> <button> </button>
-                    </div>
-                  <div class="hour" id="4pm">
-                    4pm
-                  </div>
-                  <div class="col"></div>
-                  <div class= "row">
-                  </div>
-                    <div class="time-block">
-                      <textarea class="description">   </textarea> <button> </button>
-                  </div>
-                  <div class="hour" id="5pm">
-                    5pm
-                  </div>
-                 
+             <textarea class="col-md-10 description"></textarea>
+             <button class="btn save Btn col-md-1">
+               <i class="fas fa-cloud"></i>
+             </button>
+          </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="/Assets/script.js"></script>
-  </body>
+ 
 </html>
